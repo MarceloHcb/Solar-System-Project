@@ -1,0 +1,46 @@
+.container {
+  align-items: flex-start;
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 192px;
+  justify-content: center;
+  mix-blend-mode: hard-light;
+  width: 496px;
+}
+
+.name {
+  font-size: 28px;
+  font-style: light;
+  line-height: 30px;
+  margin-left: 30px;
+  text-align: left;
+  vertical-align: center;
+}
+
+.info {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.icon {
+  margin-right: 7px;
+}
+
+.info__botton {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+hr {
+  border: 1px solid white;
+  height: 0;
+  width: 100%;
+}

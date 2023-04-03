@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  left: 44%;
+  position: absolute;
+  top: 950px;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 300px;
+  width: 70%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 90px auto;
+}

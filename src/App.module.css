@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  background-image: url('./images/background.png');
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.background {
+  background: white;
+  border-radius: 30px;
+  box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.9);
+  height: 2376px;
+  opacity: 0.1;
+  position: absolute;
+  top: 809px;
+  width: 1098px;
+}
+
+.hr {
+  border: 1px solid white;
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 506.5px;
+  width: 100%;
+}
+
+img {
+  transition: all 0.3s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}

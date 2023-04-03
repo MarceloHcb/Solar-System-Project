@@ -1,0 +1,21 @@
+.title {
+  font-family: Epilogue , Helvetica , Arial , Verdana , Tahoma , sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+  left: 42%;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+}
+
+.title:after {
+  border: solid 3px white;
+  border-radius: 50%;
+  content: '';
+  height: 90px;
+  left: 30px;
+  position: absolute;
+  rotate: -30deg;
+  top: -27px;
+  width: 260px;
+}

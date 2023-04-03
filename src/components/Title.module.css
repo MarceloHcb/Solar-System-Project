@@ -1,0 +1,14 @@
+.container {
+  font-family: Epilogue , Helvetica , Arial , Verdana , Tahoma , sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  height: 60px;
+  left: 44%;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: -100px;
+  width: 179px;
+}
